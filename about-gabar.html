@@ -44,11 +44,97 @@
             font-size: 1rem;
             color: var(--text-color);
             vertical-align: text-top;
+            line-height: 120%;
+            flex-wrap: wrap;
         }
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .instagram{
+            border: 1px solid black;
+            border-radius: 0px;
+            padding: 0.1rem;
+            color: black;
+            text-decoration: none;
+        }
+        
+        .website {
+            border: 1px solid black;
+            border-radius: 0px;
+            padding: 0.1rem;
+            color: black;
+            text-decoration: none;
+        }
+
+        .lines {
+            width: 97%;
+            height: auto;
+            position: absolute;
+            overflow: hidden;
+            z-index: -5;
+        }
+
+        /* .lines .lines1 {
+            width: 70%;
+            height: auto;
+            position: fixed;
+            left: 250px;
+            top: 350px;
+        }
+        .lines .lines2 {
+            width: 80%;
+            height: auto;
+            position: fixed;
+            top: 650px;
+            left: 10px;
+        }
+        .lines .lines3 {
+            width: 60%;
+            height: auto;
+            position: fixed;
+            top: 0px;
+            left: 10px;
+        } */
+
+        .wrapper {
+            display: flex;
+            justify-content: space-between;
+
+            font-family: 'Univers Regular';
+            font-size: 0.7rem;
+            margin-bottom: 1rem;
+        }
+
+        .wrapper div {
+            padding: 0.5rem;
+            border-radius: 0px;
+            border: solid 1px black;
+        }
+
+        a .backButton {
+            border: 1px solid black;
+            border-radius: 0px;
+            padding: 0.1rem;
+            color: black;
+            text-decoration: none;
+            z-index: -1;
+        }
+
     </style>
 </head>
 
 <body>
+    <nav class="wrapper">
+        <div><a class="backButton" href="allsidesofme.html">Back</a>
+    </nav>
+    <div class="lines">
+        <!-- <img class="lines1" src="assets/lines1.png">
+        <img class="lines2" src="assets/lines2.png">
+        <img class="lines3" src="assets/lines3.png"> -->
+    </div>
     <section1>
         <div class="title">
             About Gabar
@@ -68,7 +154,7 @@
                 heritage, the brand expands their collection of ritual-minded products to further encourage their
                 community
                 to tap into the present and find moments of calm, quiet and self-reflection. Find out more at
-                gabarmyanmar.com or follow instagram.com/gabar.
+                <a class="website" href="https://gabarmyanmar.com/">gabarmyanmar.com</a> or follow <a class="instagram" href="https://www.instagram.com/gabar/">instagram.com/gabar</a>.
             </p>
         </div>
     </section1>
@@ -79,14 +165,20 @@
         <div>
             <p class="aboutGabar">
                 For its latest campaign, Gabar encourages the embrace and celebration of all sides of self. As the team
-                writes, “...WHETHER IN OUR PERSONAL LIVES OR IN THE PUBLIC ARENA, WE FIND OURSELVES CONSTANTLY FACED
+                writes,
+                <br><br>
+                “...WHETHER IN OUR PERSONAL LIVES OR IN THE PUBLIC ARENA, WE FIND OURSELVES CONSTANTLY FACED
                 WITH THE PRESSURE TO CONFORM… AS PART OF OUR LATEST CAMPAIGN AND IN HONOR OF OUR BEAUTY LAUNCH, WE
                 ENCOURAGE EACH AND EVERYONE OF YOU TO RE-EMBRACE EVERY SINGLE SIDE THAT MAKES YOU YOU: YOUR’ GOOD’ AND
                 ‘BAD’, SOFT AND HARD, AND EVERY OTHER CONTRADICTION IN BETWEEN – EXPRESSING YOURSELF WITH FULL FREEDOM.”
+                <br><br>
                 Curated by London-based artist and curator duo Dee Sharma and Sophia Reinisch, the All Sides of Me art
                 exhibit features a diverse slate of emerging artists from Gabar’s creative community. From digital &
-                virtual reality artist Zachary Berry (@_zacharyberry_), material researcher and multidisciplinary
-                designer Mengdi Zhao (@m.d_zhao_), to sound artist Ben Khan (@ben_khan), among others, the show not only
+                virtual reality artist Zachary Berry <a class="instagram"
+href="https://www.instagram.com/_zacharyberry_/">@_zacharyberry_</a>,material researcher and
+                multidisciplinary
+                designer Mengdi Zhao <a class="instagram" href="https://www.instagram.com/_zacharyberry_/">@m.d_zhao_</a>, to sound artist
+                Ben Khan <a class="instagram" href="https://www.instagram.com/ben_khan/"> @ben_khan</a>, among others, the show not only
                 interrogates and encourages the embrace of all sides of self on a personal and individual level, but
                 also in the local and communal, thinking about our “selves” in relation to those networks – digital,
                 biological and geographical – around us. The exhibit will be open for public viewing from Friday, May 19

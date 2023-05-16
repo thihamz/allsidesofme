@@ -1,5 +1,66 @@
+:root {
+    --background-color: white;
+    --text-color: black;
+    --padding: 0.3rem;
+}
+
+@font-face {
+    font-family: 'Univers Bold';
+    src: url('assets/Univers-Bold.otf');
+}
+
+@font-face {
+    font-family: 'Univers Regular';
+    src: url('assets/Univers.otf');
+}
+
+@font-face {
+    font-family: 'Minion Pro Medium';
+    src: url('assets/Minion\ Pro\ Medium.ttf');
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    padding: var(--padding);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+
+    position: sticky;
+    top:0;
+    padding: 0.5rem;
+    box-shadow: 010px 5px 10px lightgrey;
+
+    font-family: 'Univers Regular';
+    font-size: 0.7rem;
+    margin-top: 1.5rem;
+}
+
+.wrapper div {
+    padding: 0.5rem;
+    border-radius: 0px;
+    border: solid 1px black;
+}
+
+.socialShare {
+    font-family: 'Minion Pro Medium';
+    font-size: 0.8rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+    text-align: center;
+}
+
 .allSides {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Univers Bold';
+    color: var(--text-color);
     font-size: 3.5rem;
     font-weight: 600;
     display: flex;
@@ -7,15 +68,62 @@
 }
 
 .ofMe {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Univers Bold';
+    color: var(--text-color);
     font-size: 3.5rem;
     font-weight: 600;
     display: flex;
     justify-content: space-between;
-
 }
 
 .ofMe .eventType {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 0.6rem;
+    font-family: Minion Pro Medium;
+    font-size: 0.8rem;
+    color: var(--text-color);
+    vertical-align: text-top;
+}
+
+.navBottom {
+    font-family: 'Minion Pro Medium';
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+
+    background-color: var(--background-color);
+    box-shadow: 0px -5px 10px lightgrey;
+}
+
+.gabarLogo {
+   width: 100%
+}
+
+.logoLink {
+    width: 15%;
+}
+
+.gallery {
+    text-align: right;
+}
+
+.curatorial {
+    border: solid 1px black;
+    padding: 1rem;
+}
+
+.curatorialNote {
+    font-family: 'Univers Bold';
+    font-size: 1.5rem;
+    display:flex;
+    justify-content: left;
+    margin-bottom: 1.5rem;
+}
+
+.curatorialBody {
+    display:flex;
+    text-align: left;
 }
