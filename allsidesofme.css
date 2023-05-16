@@ -1,0 +1,21 @@
+.allSides {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+}
+
+.ofMe {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 3.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.ofMe .eventType {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.6rem;
+}
