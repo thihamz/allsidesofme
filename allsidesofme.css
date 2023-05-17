@@ -127,3 +127,45 @@ body {
     display:flex;
     text-align: left;
 }
+
+.bios {
+    margin-top: 1.2rem;
+    margin-bottom: 4rem;
+    border: solid 1px black;
+    padding: 1rem;
+}
+
+.artistBiosTitle {
+    font-family: 'Univers Bold';
+    font-size: 1.5rem;
+    display:flex;
+    justify-content: left;
+    margin-bottom: 1.5rem;
+}
+
+.artistName {
+    font-family: 'Univers Bold';
+    font-size: 1rem;
+}
+
+.artistSocials {
+    font-family: 'Univers Regular';
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
+.bioText {
+    margin-bottom: 1.7rem;
+}
+
+
+.backToTopButton {
+    margin-bottom: 10rem;
+}
+
+.button {
+    border: 1px solid black;
+    font-family: 'Univers Regular';
+    color:black;
+    font-size: 0.7rem;
+}
