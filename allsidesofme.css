@@ -66,6 +66,7 @@ body {
     font-weight: 600;
     display: flex;
     justify-content: center;
+    animation: drop-in 1s ease 200ms backwards;
 }
 
 .ofMe {
@@ -75,6 +76,7 @@ body {
     font-weight: 600;
     display: flex;
     justify-content: space-between;
+    animation: drop-in 1s ease 200ms backwards;
 }
 
 .ofMe .eventType {
@@ -84,6 +86,7 @@ body {
     vertical-align: text-top;
     display: flex;
     text-align: center;
+    animation: drop-in 1s ease 200ms backwards;
 }
 
 .navBottom {
@@ -99,6 +102,7 @@ body {
 
     background-color: var(--background-color);
     box-shadow: 0px -5px 10px lightgrey;
+    
 }
 
 .gabarLogo {
@@ -116,6 +120,7 @@ body {
 .curatorial {
     border: solid 1px transparent;
     padding: 1rem;
+    
 }
 
 .curatorialNote {
@@ -124,11 +129,13 @@ body {
     display:flex;
     justify-content: left;
     margin-bottom: 1.5rem;
+    animation: drop-in-curatorial 1s ease 800ms backwards;
 }
 
 .curatorialBody {
     display:flex;
     text-align: left;
+    animation: drop-in-curatorial 1s ease 800ms backwards;
 }
 
 .bios {
@@ -178,4 +185,25 @@ body {
     display: flex;
     justify-content: center;
     width: max-content;
+}
+
+@keyframes drop-in {
+    from {
+     opacity: 0;
+     transform: translateY(-20px);
+    }
+    to {
+     opacity: 1;
+     transform: translate(0px);
+    }
+}
+@keyframes drop-in-curatorial {
+    from {
+     opacity: 0;
+     transform: translateY(-20px);
+    }
+    to {
+     opacity: 1;
+     transform: translate(0px);
+    }
 }
