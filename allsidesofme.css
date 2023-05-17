@@ -81,6 +81,8 @@ body {
     font-size: 0.8rem;
     color: var(--text-color);
     vertical-align: text-top;
+    display: flex;
+    text-align: center;
 }
 
 .navBottom {
@@ -111,7 +113,7 @@ body {
 }
 
 .curatorial {
-    border: solid 1px black;
+    border: solid 1px transparent;
     padding: 1rem;
 }
 
@@ -130,8 +132,7 @@ body {
 
 .bios {
     margin-top: 1.2rem;
-    margin-bottom: 4rem;
-    border: solid 1px black;
+    border: solid 1px transparent;
     padding: 1rem;
 }
 
@@ -146,6 +147,7 @@ body {
 .artistName {
     font-family: 'Univers Bold';
     font-size: 1rem;
+    margin-bottom: 0.2rem;
 }
 
 .artistSocials {
@@ -159,13 +161,20 @@ body {
 }
 
 
-.backToTopButton {
-    margin-bottom: 10rem;
+.backToTop {
+    display: flex;
+    justify-content: center;
 }
 
 .button {
-    border: 1px solid black;
+    padding: 0.5rem;
+    border-radius: 0px;
+    border: solid 1px black;
     font-family: 'Univers Regular';
     color:black;
     font-size: 0.7rem;
+    margin-bottom: 3rem;
+    display: flex;
+    justify-content: center;
+    width: max-content;
 }

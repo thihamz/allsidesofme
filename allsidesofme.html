@@ -346,10 +346,9 @@
         </div>
     </main>
 
-    <div id="button" class="backToTop">
-        <div class="button">Back to top</div>
+    <div class="backToTop">
+        <div onclick="topFunction()" id="buttonTop" class="button"> Back to top </div>
     </div>
-
 
     <nav class="navBottom">
         <div> May 19th - 20th
@@ -359,12 +358,22 @@
         <a class="logoLink" href="https://gabarmyanmar.com/"><img class="gabarLogo"
                 src="assets/Gabar_Wordmark-01.png"></a>
         <div class="gallery">
-            Crypt Gallery
+            <a href="http://cryptgallery.org/">Crypt Gallery</a> 
             <br>
             165 Euston Road, NW1 2BA
         </div>
     </nav>
 
+    <script>
+        // Get the button
+        let mybutton = document.getElementById("buttonTop");
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+    </script>
 </body>
 
 </html>
