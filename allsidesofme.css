@@ -81,7 +81,7 @@ body {
 
 .ofMe .eventType {
     font-family: Minion Pro Medium;
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: var(--text-color);
     vertical-align: text-top;
     display: flex;
