@@ -37,6 +37,7 @@ body {
     top:0;
     padding: 0.5rem;
     box-shadow: 010px 5px 10px lightgrey;
+    width: 99%;
 
     font-family: 'Univers Regular';
     font-size: 0.7rem;
